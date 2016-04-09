@@ -5,8 +5,8 @@ node_js:
 #    - export DISPLAY=:99.0
 #    - sh -e /etc/init.d/xvfb start
 #install:
-before_script:
-    - npm install
+#before_script:
+#    - npm install
 #script: 
 #    - node_modules/karma/bin/karma start karma-js.conf.js --single-run
 #after_success or after_failure
