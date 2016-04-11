@@ -13,6 +13,7 @@ node_js:
 #before_deploy:
 deploy:
     provider: azure_web_apps
-    skip_cleanup: true
+    on: master
+    #skip_cleanup: true
 #after_deploy
 #after_script
